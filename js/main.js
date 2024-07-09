@@ -23,4 +23,13 @@ $(function(){
         console.log (n);
     },3000)/* setInterval */
 
+    $(function(){
+        $(".close").click(function(){
+            $(".pop").hide();
+        })
+        $(".p_up").click(function(){
+            $(".pop").show();
+        })
+    })
+
 })/* js_end */
